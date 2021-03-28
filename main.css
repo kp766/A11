@@ -1,0 +1,115 @@
+/* the styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-color: #931420;
+    background-color: #fffded;
+  }
+  html {
+    background-color: white;
+  }
+   
+  /* the styles for the header */
+  h2 {
+    font-size: 170%;
+    color: #800000;
+  }
+   
+  h3 {
+    font-size: 130%;
+    font-family: "italic";
+    border: 3px solid;
+    border-color: #931420;
+    background-color: #fffded;
+    box-shadow: #036a81;
+  }
+  .shadow {
+    text-shadow: 2px #800000;
+  }
+   
+  header img {
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+   
+  header {
+    border-bottom: 3px solid;
+    border-color: #931420;
+    background-color: #fffded;
+    padding-top: 1.5ems;
+    padding-bottom: 2ems;
+    background: #f6bb73 rbga(30%, 50%, 80%, 100%);
+  }
+   
+  /* the styles for the section */
+  main {
+    clear: left;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+   
+  h1 {
+    font-size: 150%;
+    border: 3px solid;
+    border-color: #931420;
+    background-color: #fffded;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+  h2 {
+    font-size: 150%;
+    color: #800000;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+  }
+  h3 {
+    padding-bottom: 0.25em;
+  }
+  img {
+    padding-bottom: 1em;
+  }
+  p {
+    padding-bottom: 0.5em;
+  }
+  blockquote {
+    padding-right: 2em;
+    padding-left: 2em;
+    user-focus: italicizes;
+  }
+  ul {
+    padding-bottom: 0.25em;
+    padding-left: 1.25em;
+  }
+  li {
+    padding-bottom: 0.35em;
+  }
+  a:hover {
+    user-focus: italicizes;
+  }
+   
+  /* the styles for the footer */
+   
+  footer {
+    text-align: center;
+    position: center;
+    border: 3px solid;
+    border-color: #931420;
+    background-color: #fffded;
+    font-color: white;
+  }
+  footer p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+   
+  * {
+    margin: 0;
+    padding: 0;
+  }
